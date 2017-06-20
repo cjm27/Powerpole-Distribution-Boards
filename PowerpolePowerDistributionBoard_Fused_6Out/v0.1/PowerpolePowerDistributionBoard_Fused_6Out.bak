@@ -1,0 +1,256 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MyLibrary
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Powerpole 6 Outlets Fused Power Distribution Board"
+Date ""
+Rev "0.1"
+Comp "KE8FLZ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AndersonPowerpole J3
+U 1 1 5947A482
+P 3250 3400
+F 0 "J3" H 3300 3500 50  0000 C CNN
+F 1 "AndersonPowerpole" H 3300 3250 50  0000 C CNN
+F 2 "" H 3250 3400 50  0001 C CNN
+F 3 "" H 3250 3400 50  0001 C CNN
+	1    3250 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AndersonPowerpole J4
+U 1 1 5947A4FE
+P 3650 3400
+F 0 "J4" H 3700 3500 50  0000 C CNN
+F 1 "AndersonPowerpole" H 3700 3250 50  0000 C CNN
+F 2 "" H 3650 3400 50  0001 C CNN
+F 3 "" H 3650 3400 50  0001 C CNN
+	1    3650 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AndersonPowerpole J5
+U 1 1 5947A52A
+P 4050 3400
+F 0 "J5" H 4100 3500 50  0000 C CNN
+F 1 "AndersonPowerpole" H 4100 3250 50  0000 C CNN
+F 2 "" H 4050 3400 50  0001 C CNN
+F 3 "" H 4050 3400 50  0001 C CNN
+	1    4050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AndersonPowerpole J6
+U 1 1 5947A530
+P 4450 3400
+F 0 "J6" H 4500 3500 50  0000 C CNN
+F 1 "AndersonPowerpole" H 4500 3250 50  0000 C CNN
+F 2 "" H 4450 3400 50  0001 C CNN
+F 3 "" H 4450 3400 50  0001 C CNN
+	1    4450 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AndersonPowerpole J1
+U 1 1 5947A56A
+P 2450 3400
+F 0 "J1" H 2500 3500 50  0000 C CNN
+F 1 "AndersonPowerpole" H 2500 3250 50  0000 C CNN
+F 2 "" H 2450 3400 50  0001 C CNN
+F 3 "" H 2450 3400 50  0001 C CNN
+	1    2450 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AndersonPowerpole J2
+U 1 1 5947A570
+P 2850 3400
+F 0 "J2" H 2900 3500 50  0000 C CNN
+F 1 "AndersonPowerpole" H 2900 3250 50  0000 C CNN
+F 2 "" H 2850 3400 50  0001 C CNN
+F 3 "" H 2850 3400 50  0001 C CNN
+	1    2850 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AndersonPowerpole J7
+U 1 1 5947A594
+P 4850 3400
+F 0 "J7" H 4900 3500 50  0000 C CNN
+F 1 "AndersonPowerpole" H 4900 3250 50  0000 C CNN
+F 2 "" H 4850 3400 50  0001 C CNN
+F 3 "" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fuse F1
+U 1 1 5947A756
+P 2550 4000
+F 0 "F1" V 2630 4000 50  0000 C CNN
+F 1 "Fuse" V 2475 4000 50  0000 C CNN
+F 2 "" V 2480 4000 50  0001 C CNN
+F 3 "" H 2550 4000 50  0001 C CNN
+	1    2550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F2
+U 1 1 5947A7E3
+P 2950 4000
+F 0 "F2" V 3030 4000 50  0000 C CNN
+F 1 "Fuse" V 2875 4000 50  0000 C CNN
+F 2 "" V 2880 4000 50  0001 C CNN
+F 3 "" H 2950 4000 50  0001 C CNN
+	1    2950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F3
+U 1 1 5947A82E
+P 3350 4000
+F 0 "F3" V 3430 4000 50  0000 C CNN
+F 1 "Fuse" V 3275 4000 50  0000 C CNN
+F 2 "" V 3280 4000 50  0001 C CNN
+F 3 "" H 3350 4000 50  0001 C CNN
+	1    3350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F4
+U 1 1 5947A834
+P 3750 4000
+F 0 "F4" V 3830 4000 50  0000 C CNN
+F 1 "Fuse" V 3675 4000 50  0000 C CNN
+F 2 "" V 3680 4000 50  0001 C CNN
+F 3 "" H 3750 4000 50  0001 C CNN
+	1    3750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F5
+U 1 1 5947A8C9
+P 4150 4000
+F 0 "F5" V 4230 4000 50  0000 C CNN
+F 1 "Fuse" V 4075 4000 50  0000 C CNN
+F 2 "" V 4080 4000 50  0001 C CNN
+F 3 "" H 4150 4000 50  0001 C CNN
+	1    4150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F6
+U 1 1 5947A8CF
+P 4550 4000
+F 0 "F6" V 4630 4000 50  0000 C CNN
+F 1 "Fuse" V 4475 4000 50  0000 C CNN
+F 2 "" V 4480 4000 50  0001 C CNN
+F 3 "" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F7
+U 1 1 5947A8D5
+P 4950 4000
+F 0 "F7" V 5030 4000 50  0000 C CNN
+F 1 "Fuse" V 4875 4000 50  0000 C CNN
+F 2 "" V 4880 4000 50  0001 C CNN
+F 3 "" H 4950 4000 50  0001 C CNN
+	1    4950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3550 2550 3850
+Wire Wire Line
+	2550 4150 2550 4300
+Wire Wire Line
+	2550 4300 4950 4300
+Wire Wire Line
+	4950 4300 4950 4150
+Wire Wire Line
+	4950 3850 4950 3550
+Wire Wire Line
+	4950 3200 4950 3050
+Wire Wire Line
+	4950 3050 2550 3050
+Wire Wire Line
+	2550 3050 2550 3200
+Wire Wire Line
+	2950 3200 2950 3050
+Connection ~ 2950 3050
+Wire Wire Line
+	3350 3200 3350 3050
+Connection ~ 3350 3050
+Wire Wire Line
+	3750 3200 3750 3050
+Connection ~ 3750 3050
+Wire Wire Line
+	4150 3200 4150 3050
+Connection ~ 4150 3050
+Wire Wire Line
+	4550 3200 4550 3050
+Connection ~ 4550 3050
+Wire Wire Line
+	4550 4150 4550 4300
+Connection ~ 4550 4300
+Wire Wire Line
+	4150 4150 4150 4300
+Connection ~ 4150 4300
+Wire Wire Line
+	3750 4150 3750 4300
+Connection ~ 3750 4300
+Wire Wire Line
+	3350 4150 3350 4300
+Connection ~ 3350 4300
+Wire Wire Line
+	2950 4150 2950 4300
+Connection ~ 2950 4300
+Wire Wire Line
+	2950 3850 2950 3550
+Wire Wire Line
+	3350 3850 3350 3550
+Wire Wire Line
+	3750 3850 3750 3550
+Wire Wire Line
+	4150 3850 4150 3550
+Wire Wire Line
+	4550 3550 4550 3850
+$EndSCHEMATC
