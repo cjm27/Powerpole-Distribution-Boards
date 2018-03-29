@@ -1,0 +1,56 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 3557-2
+#
+DEF 3557-2 F 0 40 N N 1 L N
+F0 "F" -150 55 50 H V L BNN
+F1 "3557-2" -150 -115 50 H V L BNN
+F2 "FUSE_3557-2" 0 0 50 H I L BNN
+F3 "Keystone" 0 0 50 H I L BNN
+F4 "Clip%3B Auto Clips %26 Holders%3B 2-1 Holder For Standard %26 Low Profile Mini Fuses" 0 0 50 H I L BNN "Description"
+F5 "Good" 0 0 50 H I L BNN "Availability"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "3557-2" 0 0 50 H I L BNN "MP"
+F8 "0.77 USD" 0 0 50 H I L BNN "Price"
+DRAW
+P 2 0 0 10 -150 -30 150 -30 N
+P 2 0 0 10 -150 30 -150 -30 N
+P 2 0 0 10 150 -30 150 30 N
+P 2 0 0 10 150 30 -150 30 N
+X 1A 1 -200 0 100 R 40 40 0 0 P
+X 1B 2 -100 0 100 R 40 40 0 0 P
+X 2A 3 200 0 100 L 40 40 0 0 P
+X 2B 4 100 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# AndersonPowerpole
+#
+DEF AndersonPowerpole J 0 40 Y N 1 F N
+F0 "J" 50 100 50 H V C CNN
+F1 "AndersonPowerpole" 50 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *powerpole*
+$ENDFPLIST
+DRAW
+T 0 -150 0 60 0 0 0 + Normal 0 C C
+T 0 200 0 60 0 0 0 - Normal 0 C C
+S -100 50 0 -50 0 1 0 N
+S 0 -50 -100 0 0 1 0 F
+S 50 50 150 -50 0 1 0 N
+S 150 -50 50 0 0 1 0 F
+P 2 0 1 0 -50 -100 -50 -50 N
+P 2 0 1 0 100 -100 100 -50 N
+P 4 0 1 20 0 0 0 50 -100 50 -100 0 N
+P 4 0 1 20 50 0 50 50 150 50 150 0 N
+X ~ 1 -150 -100 100 R 50 50 1 1 W
+X ~ 2 200 -100 100 L 50 50 1 1 W
+X ~ 1 -350 50 300 R 50 50 1 2 P
+X ~ 2 -350 -50 300 R 50 50 1 2 P
+ENDDRAW
+ENDDEF
+#
+#End Library
